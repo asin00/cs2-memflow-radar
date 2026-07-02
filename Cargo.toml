@@ -1,0 +1,18 @@
+[package]
+name = "cs2_radar"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+memflow = "0.2"
+memflow-kvm = "0.2"
+clap = { version = "3.2", features = ["derive"] }
+log = "0.4"
+simplelog = "0.12"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+axum = { version = "0.6", features = ["ws"] }
+tokio = { version = "1.0", features = ["full"] }
+tower-http = { version = "0.4", features = ["fs", "trace"] }
+futures = "0.3"
+anyhow = "1.0"

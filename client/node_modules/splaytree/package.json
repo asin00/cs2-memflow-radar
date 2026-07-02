@@ -1,0 +1,62 @@
+{
+  "name": "splaytree",
+  "version": "3.2.3",
+  "author": "Alexander Milevski <info@w8r.name>",
+  "license": "MIT",
+  "description": "Fast Splay tree for Node and browser",
+  "type": "module",
+  "main": "dist/splaytree.umd.cjs",
+  "browser": "dist/splaytree.umd.cjs",
+  "unpkg": "dist/splaytree.umd.cjs",
+  "module": "dist/splaytree.js",
+  "types": "dist/types/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/w8r/splay-tree.git"
+  },
+  "scripts": {
+    "build": "vite build && npm run types",
+    "types": "tsc --declaration --emitDeclarationOnly -p tsconfig.build.json",
+    "test": "vitest",
+    "test:watch": "vitest watch",
+    "bench": "vitest bench",
+    "coverage": "vitest run --coverage",
+    "lint": "oxlint src tests",
+    "prepublishOnly": "npm run build && npm test",
+    "clean": "rm -rf dist coverage .nyc"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "4.0.16",
+    "avl": "2.0.0",
+    "bintrees": "1.0.2",
+    "oxlint": "1.35.0",
+    "typescript": "5.8.2",
+    "vite": "7.3.0",
+    "vite-plugin-dts": "4.5.4",
+    "vitest": "4.0.16"
+  },
+  "keywords": [
+    "binary-tree",
+    "bst",
+    "splay-tree",
+    "splay",
+    "balanced-search-tree"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/types/index.d.ts",
+      "import": "./dist/splaytree.js",
+      "require": "./dist/splaytree.umd.cjs"
+    }
+  },
+  "engines": {
+    "node": ">=18.20 || >=20"
+  }
+}
