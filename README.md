@@ -8,13 +8,22 @@
 ### qemu 11.0.1
 ### 虚拟机系统 Windows 10 ltsc 2019
 
+## 克隆
+git clone https://github.com/asin00/cs2-memflow-radar.git
+
+
+
 ## 编译
 
 ```bash
+cd cs2-memflow-radar/
+
 cargo build --release
 ```
 
 ## 运行
+
+先启动虚拟机并运行CS2
 
 使用 QEMU 连接器：
 
