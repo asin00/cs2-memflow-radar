@@ -1,4 +1,4 @@
-# CS2 Memflow Radar (Rust)
+# CS2 Memflow Radar
 
 基于 [rabume/cs2-dma-radar](https://github.com/rabume/cs2-dma-radar) 使用 Rust + memflow 重构的 CS2 雷达
 
