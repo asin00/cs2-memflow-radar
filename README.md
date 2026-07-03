@@ -39,13 +39,13 @@ npm run build
 使用 QEMU 连接器：
 
 ```bash
-SETPTRACE=1 cargo run --release -- -c qemu -o win32
+sudo ./target/release/cs2_radar -c qemu -o win32
 ```
 
 若出现无法找到 DTB 的报错，建议使用 KVM 连接器：
 
 ```bash
-SETPTRACE=1 cargo run --release -- -c kvm -o win32
+sudo ./target/release/cs2_radar -c kvm -o win32
 ```
 程序运行成功后在同一局域网设备上使用浏览器访问 http://<宿主机IP>:8080
 
