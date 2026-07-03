@@ -25,6 +25,8 @@ cargo build --release
 
 先启动虚拟机并运行CS2
 
+在windows中使用ssh连接宿主机
+
 使用 QEMU 连接器：
 
 ```bash
