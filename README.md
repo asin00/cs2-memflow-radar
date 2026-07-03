@@ -21,6 +21,7 @@ SETPTRACE=1 cargo run --release -- -c qemu -o win32
 ```bash
 SETPTRACE=1 cargo run --release -- -c kvm -o win32
 ```
+<img width="1280" height="1707" alt="c9f9e97a4efd1193babec1961db9dd08" src="https://github.com/user-attachments/assets/394d50aa-0111-4864-a9d2-7523eedc0a8b" />
 
 ## 致谢
 
