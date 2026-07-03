@@ -46,11 +46,11 @@ SETPTRACE=1 cargo run --release -- -c kvm -o win32
 
 ## 致谢
 
-本项目基于 [rabume/cs2-dma-radar](https://github.com/rabume/cs2-dma-radar) 重构，感谢原作者的工作
+本项目基于 [rabume/cs2-dma-radar](https://github.com/rabume/cs2-dma-radar) 重构，感谢原作者的工作！
 
 ## 免责声明
 
-本项目仅供学习研究，严禁用于 CS2 官方匹配。使用后果由用户自行承担
+本项目仅供学习研究，严禁用于 CS2 官方匹配！使用后果由用户自行承担！
 
 ## 开源协议
 
