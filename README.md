@@ -3,7 +3,7 @@
 基于 [rabume/cs2-dma-radar](https://github.com/rabume/cs2-dma-radar) 使用 Rust + memflow 重构的 CS2 雷达。
 
 ## 运行环境
-### 参考
+我的环境是
 ### 宿主机系统 debian 13.5
 ### qemu 11.0.1
 ### 虚拟机系统 Windows 10 ltsc 2019
