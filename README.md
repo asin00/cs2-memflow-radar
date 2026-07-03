@@ -13,12 +13,21 @@ git clone https://github.com/asin00/cs2-memflow-radar.git
 
 
 
-## 编译
+## 后端编译
 
 ```bash
 cd cs2-memflow-radar/
 
 cargo build --release
+```
+
+## 前端编译
+```bash
+cd cs2-memflow-radar/client
+
+npm install
+
+npm run build
 ```
 
 ## 运行
